@@ -1,0 +1,7 @@
+<node>
+  <interface name="com.example.MyService">
+    <method name="RunAsRoot">
+      <arg type="s" direction="in" name="command"/>
+    </method>
+  </interface>
+</node>
